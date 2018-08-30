@@ -42,6 +42,9 @@ public class Person3 {
 	 * @return the reversed string
 	 */
 	private String calc(String input) {
+	  if (input == null) {
+	  	throw new NullPointerException("Null String not allowed");
+	  }
 	  String toReturn = "";
 	  for (int i = input.length() - 1; i >= 0; i--) {
 	  	toReturn += input.charAt(i);
