@@ -50,6 +50,5 @@ public class Person3 {
 	  	toReturn += input.charAt(i);
 	  }
 	  return toReturn;
-
 	}
 }
