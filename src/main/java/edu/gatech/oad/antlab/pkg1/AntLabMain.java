@@ -77,13 +77,7 @@ import edu.gatech.oad.antlab.pkg2.*;
                   Person5 p5 = new Person5("Frank Zhoou");
                   toPrint += p5.toString("fzhou65");
 
-
-                  Person5 p5 = new Person5("P5");
-                  toPrint += p5.toString("gburdell5");
-
-
         System.out.println(toPrint);
-
 
     }
 
